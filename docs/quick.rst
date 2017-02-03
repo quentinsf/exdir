@@ -45,7 +45,7 @@ Like NumPy arrays, datasets have both a shape and a data type:
 .. doctest:: 
   
     >>> dset.shape
-    (100,)
+    (99,)
 
 They also support array-style slicing.  This is how you read and write data
 from a dataset in the file:
