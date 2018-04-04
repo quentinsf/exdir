@@ -8,7 +8,13 @@ import versioneer
 
 long_description = open("README.md").read()
 
-install_requires = []
+install_requires = [ 
+    'numpy', 
+    'scipy',
+    'ruamel.yaml',
+    'h5py',
+    'pyyaml'
+]
 
 setup(
     name="exdir",
